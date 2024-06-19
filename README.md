@@ -2,7 +2,7 @@
 
 ## Overview
 
-The repository contains the code and materials for my Master Thesis titled "Learning Dynamics of Linear Neural Networks". This research aims to better understand how weight initialisation and network structure influence learning properties in neural networks. To do so, we study $\lambda$-Balanced linear networks. The study provides exact solutions for aligned and unaligned $\lambda$-Balanced networks and explores their applications to continual learning. 
+The repository contains the code and materials for my Master Thesis titled "Learning Dynamics of Linear Neural Networks". This research aims to better understand how weight initialisation and network structure influence learning properties in neural networks. To do so, we study $\lambda$-Balanced linear networks. The study provides exact solutions for aligned and unaligned $\lambda$-Balanced networks and explores their applications to continual learning. Pease note that this code builds upon existing code from https://openreview.net/forum?id=lJx2vng-KiC. Specifically, some functions from `tools.py`are reused, and the data for `illustrative_example.ipynb` is also reused.
 
 ## Contents
 
