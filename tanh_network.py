@@ -1,5 +1,10 @@
 import numpy as np
 
+# This class defines a simple Tanh-based neural network with one hidden layer.
+# It includes methods for forward propagation, backward propagation (gradient descent),
+# and training the network. The class can be initialized with custom weights or with random
+# weights if none are provided. It uses the Tanh activation function for the hidden layer.
+
 class TanhNetwork:
     def __init__(self, in_dim, hidden_dim, out_dim, init_w1=None, init_w2=None):
         if init_w1 is not None and init_w2 is not None:
@@ -51,5 +56,7 @@ class TanhNetwork:
             self.backward(X_train, Y_train, learning_rate)
             # Uncomment to print loss every epoch
             # print(f"Epoch {epoch+1}/{epochs}, Loss: {loss}")
+        
+        return w1s, w2s, losses
         
         return w1s, w2s, losses
