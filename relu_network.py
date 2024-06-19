@@ -1,5 +1,10 @@
 import numpy as np 
 
+# This class defines a simple ReLU-based neural network with one hidden layer.
+# It includes methods for forward propagation, backward propagation (gradient descent),
+# and training the network. The class can be initialized with custom weights or with random 
+# weights if none are provided. It uses the ReLU activation function for the hidden layer.
+
 class ReLUNetwork:
     def __init__(self, in_dim, hidden_dim, out_dim, init_w1=None, init_w2=None):
         if init_w1 is not None and init_w2 is not None:
