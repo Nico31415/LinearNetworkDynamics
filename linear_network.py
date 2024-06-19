@@ -1,6 +1,11 @@
 import numpy as np
 from utils import get_lambda_balanced
 
+# This class defines a simple linear neural network with one hidden layer.
+# It includes methods for forward propagation, backward propagation (gradient descent), 
+# and training the network. The class can be initialized with custom weights or 
+# with random weights if none are provided.
+
 class LinearNetwork:
     def __init__(self, in_dim, hidden_dim, out_dim, init_w1 = None, init_w2 = None):
 
